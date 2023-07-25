@@ -51,6 +51,11 @@ header{
     border-radius: 20px;
 }
 
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
 /**********************************************************
 
                         JUMBOTRON
@@ -59,6 +64,10 @@ header{
 
 .jumbotron, .about{
     background-color: var(--sb-success) ;
+}
+
+h1{
+    font-size: 52px;
 }
 
 
