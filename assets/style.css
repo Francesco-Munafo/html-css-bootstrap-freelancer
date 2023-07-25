@@ -1,0 +1,42 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:root{
+    --sb-darker: #2c3e50;
+    --sb-success: #1abc9c;
+
+    --sb-font-light: #ffffff;
+    --sb-font-dark: #2c3e50;
+}
+
+
+
+/* #region header */
+
+header{
+    height: 70px;
+    background-color: var(--sb-darker);
+}
+
+
+/* #endregion header */
+
+
+/* #region main */
+
+
+
+/**********************************************************
+
+                        JUMBOTRON
+
+**********************************************************/
+
+.jumbotron{
+    background-color: var(--sb-success) ;
+}
+
+/* #endregion main */
