@@ -10,6 +10,7 @@ body{
 
     --sb-font-light: #ffffff;
     --sb-font-dark: #2c3e50;
+    --sb-font-darker: #333333;
 }
 
 
@@ -26,8 +27,28 @@ header{
 
 
 /* #region main */
+.light{
+    color: var(--sb-font-light);
+}
 
+.dark{
+    color: var(--sb-font-dark);
+    
+}
 
+.bg_light{
+    background-color: var(--sb-font-light);
+}
+
+.bg_dark{
+    background-color: var(--sb-darker);
+}
+
+.bar{
+    height: 3px;
+    width: 10% ;
+    border-radius: 20px;
+}
 
 /**********************************************************
 
@@ -38,5 +59,18 @@ header{
 .jumbotron{
     background-color: var(--sb-success) ;
 }
+
+
+/**********************************************************
+
+                        PORTFOLIO
+
+**********************************************************/
+
+.portfolio img{
+    width: 100%;
+    border-radius: 15px;
+}
+
 
 /* #endregion main */
