@@ -7,6 +7,7 @@ body{
 :root{
     --sb-darker: #2c3e50;
     --sb-success: #1abc9c;
+    --sb-footer: #3a546d;
 
     --sb-font-light: #ffffff;
     --sb-font-dark: #2c3e50;
@@ -56,7 +57,7 @@ header{
 
 **********************************************************/
 
-.jumbotron{
+.jumbotron, .about{
     background-color: var(--sb-success) ;
 }
 
@@ -74,3 +75,28 @@ header{
 
 
 /* #endregion main */
+
+
+/* #region footer */
+
+footer{
+    background-color: var(--sb-footer);
+}
+
+footer li{
+    width: 50px;
+    aspect-ratio: 1 / 1;
+}
+
+.fa-brands{
+    line-height: 48px;
+}
+
+footer p > a{
+    color: var(--sb-success);
+}
+
+.copyright{
+    background-color: var(--sb-darker);
+}
+/* #endregion footer */
