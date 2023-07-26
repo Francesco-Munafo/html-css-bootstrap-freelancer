@@ -7,6 +7,7 @@ body{
 :root{
     --sb-darker: #2c3e50;
     --sb-success: #1abc9c;
+    --sb-success-hover: #16997f;
     --sb-footer: #3a546d;
 
     --sb-font-light: #ffffff;
@@ -18,10 +19,15 @@ body{
 
 /* #region header */
 
-header{
-    height: 70px;
-    background-color: var(--sb-darker);
+.prsnl_bg_success{
+    background-color: var(--sb-success);
 }
+
+.prsnl_bg_success:hover{
+    background-color: var(--sb-success-hover);
+}
+
+
 
 
 /* #endregion header */
@@ -56,13 +62,17 @@ h2{
     font-weight: 600;
 }
 
+#contact h2, #portfolio h2{
+    color: var(--sb-font-darker);
+}
+
 /**********************************************************
 
                         JUMBOTRON
 
 **********************************************************/
 
-.jumbotron, .about{
+#jumbotron, #about{
     background-color: var(--sb-success) ;
 }
 
@@ -77,7 +87,7 @@ h1{
 
 **********************************************************/
 
-.portfolio img{
+#portfolio img{
     width: 100%;
     border-radius: 15px;
 }
@@ -92,14 +102,25 @@ footer{
     background-color: var(--sb-footer);
 }
 
+footer h6{
+    font-weight: 700;
+}
+
 footer li{
     width: 50px;
     aspect-ratio: 1 / 1;
 }
 
+footer li:hover .fa-brands{
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
 .fa-brands{
     line-height: 48px;
 }
+
+
 
 footer p > a{
     color: var(--sb-success);
