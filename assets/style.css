@@ -27,6 +27,9 @@ body{
     background-color: var(--sb-success-hover);
 }
 
+.invert{
+    filter: invert(1);
+}
 
 
 
